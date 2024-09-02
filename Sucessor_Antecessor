@@ -1,0 +1,10 @@
+n = int(input('Digite um número: '))  # SUCESSOR E ANTECESSOR
+an = n - 1
+su = n + 1
+print('=' * 20)
+print('Antecessor = {} \nSucessor = {} '.format(an, su))
+
+# ----------------------------------------------------
+
+n = int(input('Digite um numero: '))
+print('Ante = {} e suce = {}'.format((n - 1), n + 1))
